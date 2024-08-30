@@ -7,10 +7,10 @@
     <title>Home page</title>
 </head>
 <body>
-    <header class="bg-rose-700 py-3 w-full">
+    <header class="bg-[#221831] py-3 pl-[10px] w-full fixed z-[10]">
         <nav class="flex justify-between items-center">
             <ul class="flex items-center">
-                <li> <a href="./index.html"> <img src="./logo2.jpg" alt=""></a></li>
+                <li> <a href="./index.html"> <img src="./logo2.jpg" class="w-[30%] h[30%] rounded-[50%]" alt=""></a></li>
                 <li class="mr-4"><a href="../index.html" class="text-lg text-white hover:text-gray-300"> Home</a></li>
                 <li class="mr-4"> <a href="./about/about.html"  class="text-lg text-white hover:text-gray-300"> About</a></li>
                 <li class="mr-4"> <a href="./services/services.html"  class="text-lg text-white hover:text-gray-300">Services</a></li>
@@ -18,20 +18,25 @@
             </ul>
         </nav>
     </header>
-    <main class="bg-rose-200">
-        <div class="justify-between p-4 rounded shadow-md">
-           <h1 class="text-3xl font-bold pt-[50px] pb-[20px] ml-[300px]">WELCOME TO OUR SCHOOL</h1>
-           <p class="text-2xl font-bold mb-4 ml-[300px]">Where Independent Learning Happens!</p>
-           <p class="text-lg pt-[100px]" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus illo fuga
-             libero aut illum dolor nihil deserunt officiis corporis, consequatur mollitia aspernatur
-              assumenda hic? Ad dolore ducimus veniam, magni molestias saepe ex doloribus adipisci? Suscipit 
-              a animi impedit quaerat, similique porro rem ipsum magnam error consectetur ducimus repellendus 
-              deleniti earum vitae nesciunt excepturi libero nisi iste eius eum dolores? Ha
-              <img src="./image/images (3).jpg" alt="">
+    <main class="bg-[#465779] text-[white]  ">
+        <div class="justify-between ">
+            <div class="h-[100vh] flex flex-col justify-center items-center gap-[50px] bg-[url('./image/home.jpg')] bg-[cover] z-[-1]">
+                <h1 class="text-[70px] font-bold z-[1] bg-[#465779] rounded-[13px] p-3 opacity-80 ">WELCOME TO OUR SCHOOL</h1>
+                <p class="text-2xl font-bold z-[1] bg-[#465779] rounded-[13px] p-3 opacity-80 ">Where Independent Learning Happens!</p>
+            </div>
+            <div class="flex justify-between p-[40px]">
+                <p class="text-lg w-[50%] " >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus illo fuga
+                    libero aut illum dolor nihil deserunt officiis corporis, consequatur mollitia aspernatur
+                     assumenda hic? Ad dolore ducimus veniam, magni molestias saepe ex doloribus adipisci? Suscipit 
+                     a animi impedit quaerat, similique porro rem ipsum magnam error consectetur ducimus repellendus 
+                     deleniti earum vitae nesciunt excepturi libero nisi iste eius eum dolores? Ha
+                </p>   
+                     <img src="./image/images (3).jpg" class="w-[40%] rounded-[10px]" alt="">
+            </div>
         </div>
     </main>
-    <footer class="bg-blue-500 py-4">
-        <img src="./logo2.jpg" alt="logo" class="w-24 mx-auto">
+    <footer class="bg-[#221831] py-4">
+        <img src="./logo2.jpg" alt="logo" class="w-24 rounded-[50%] mx-auto">
         <ul class="flex justify-center items-center mb-4">
             <li  class="mr-4 text-lg text-white hover:text-gray-300"><a href="">LinkedIn</a></li>
 			<li  class="mr-4 text-lg text-white hover:text-gray-300"><a href="">GitHub</a></li>
